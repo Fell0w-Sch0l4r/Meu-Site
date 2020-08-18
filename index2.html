@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+       <h1>Verificador de idade</h1>
+   </header>
+   <section>
+       <div>
+           <p>Ano de Nascimento <input type="number" name="ano" id="ano" min="0"></p>
+            Sexo:
+           
+           <input type="radio" name="sex" id="mas">
+           <label for="mas">Masculino</label>
+
+           <input type="radio" name="sex" id="fem" checked>
+           <label for="fem">Feminino</label>
+
+           <p>
+               <input type="button" value="Verificar" onclick="clicar()">
+           </p>
+        </div>
+       
+       
+        <div id = 'res'>
+            Preencha os dados acima para ver o resultado!
+        </div>
+   </section>
+   <main>
+       <p><a href="index.html" target="_self" rel="prev">Base de Dados</a></p>
+   </main>
+   <footer>&copy;Ângelcagiza</footer>
+
+   <script src="idade.js"></script>
+</body>
+</html>

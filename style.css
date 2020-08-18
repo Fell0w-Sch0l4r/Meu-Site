@@ -25,3 +25,12 @@ footer{
     text-align: center;
     font-style: italic;
 }
+
+main{
+    background-color: white;
+    margin: auto;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    text-align: center;
+}
