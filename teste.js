@@ -92,7 +92,7 @@ function fim(){
     resposta.innerHTML += `<p>A pessoa mais nova é ${mais_novo.nome}, que possui ${mais_novo.idade} anos.</p>`
     resposta.innerHTML += `<p>A média de idades das pessoas cadstradas é de ${(média/info.length).toFixed
     (2)} anos.</p>`
-    resposta.innerHTML += `<p>Foram cadastrados ${num_homens} homens e ${num_mulheres} mulheres.</p>`
+    resposta.innerHTML += `<p>Foram cadastrados ${num_homens} homem(s) e ${num_mulheres} mulher(s).</p>`
     
     }
     
