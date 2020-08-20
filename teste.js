@@ -57,11 +57,8 @@ function fim(){
     var mais_velho 
     var mais_novo 
     var média = 0
-
-    var h_velho
-    var h_novo
-    var m_velha
-    var m_nova
+    var num_homens = 0
+    var num_mulheres = 0
 
     
 
@@ -81,15 +78,24 @@ function fim(){
             
             mais_novo = {nome:info[c].nome,idade:info[c].idade}
         }
+
+        if (info[c].sexo=='Masculino'){
+            num_homens += 1
+        }else{
+            num_mulheres += 1
+        }
     
         média += info[c].idade
     }
     resposta.innerHTML += `<p>Foram cadastradas ${info.length} pessoas </p>`
     resposta.innerHTML += `<p>A pessoa mais velha é ${mais_velho.nome}, que possui ${mais_velho.idade} anos.</p>`
     resposta.innerHTML += `<p>A pessoa mais nova é ${mais_novo.nome}, que possui ${mais_novo.idade} anos.</p>`
-    resposta.innerHTML += `<p>A média de idades das pessoas cadstradas é de ${média/info.length}.</p>`
+    resposta.innerHTML += `<p>A média de idades das pessoas cadstradas é de ${(média/info.length).toFixed
+    (2)} anos.</p>`
+    resposta.innerHTML += `<p>Foram cadastrados ${num_homens} homens e ${num_mulheres} mulheres.</p>`
+    
     }
     
     
 }
-r
+
