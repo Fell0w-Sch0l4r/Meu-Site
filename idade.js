@@ -9,6 +9,7 @@ function clicar(){
 
 
     var pic = document.createElement('img')
+    pic.
     pic.setAttribute('id','foto')
     
 

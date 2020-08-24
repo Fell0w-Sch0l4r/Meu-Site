@@ -93,3 +93,13 @@ function fim(){
     
 }
 
+function video(){
+    if (document.getElementById('lugar').innerHTML == ''){var viddeo = document.createElement('video')
+    viddeo.src = 'videoplayback.mp4' 
+    viddeo.width = 500
+    viddeo.controls = true
+    viddeo.preload = 'metadata'
+    viddeo.poster = 'noite.jpg'
+    document.getElementById('lugar').appendChild(viddeo)}
+    
+}
