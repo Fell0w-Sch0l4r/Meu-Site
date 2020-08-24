@@ -99,7 +99,7 @@ function video(){
     viddeo.width = 500
     viddeo.controls = true
     viddeo.preload = 'metadata'
-    viddeo.poster = 'noite.jpg'
+    viddeo.poster = 'noite-300.jpg'
     document.getElementById('lugar').appendChild(viddeo)}
     
 }

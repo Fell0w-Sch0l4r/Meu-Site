@@ -71,3 +71,8 @@ function clicar(){
 
     }
 }
+
+function video(){
+    if (document.getElementById('lugar').innerHTML == ''){document.getElementById('video').innerHTML =}
+    
+}
