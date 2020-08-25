@@ -9,7 +9,7 @@ function clicar(){
 
 
     var pic = document.createElement('img')
-    pic.
+    
     pic.setAttribute('id','foto')
     
 
@@ -70,4 +70,10 @@ function clicar(){
         ver.appendChild(pic)
 
     }
+}
+
+
+function vídeo(){
+    var lugar = document.getElementById('videos')
+    lugar.innerHTML = '<iframe width="500" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 }
