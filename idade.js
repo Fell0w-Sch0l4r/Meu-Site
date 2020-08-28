@@ -75,5 +75,5 @@ function clicar(){
 
 function vídeo(){
     var lugar = document.getElementById('videos')
-    lugar.innerHTML = '<iframe width="500" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    lugar.innerHTML = '<iframe width="500" height="315" src="https://www.youtube.com/embed/BV2FdDmGiW0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 }
