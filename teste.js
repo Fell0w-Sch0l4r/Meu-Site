@@ -100,12 +100,28 @@ function fim(){
 }
 
 function video(){
-    if (document.getElementById('lugar').innerHTML == ''){var viddeo = document.createElement('video')
-    viddeo.src = 'videoplayback.mp4' 
+    if (document.getElementById('lugar').innerHTML == ''){
+    
+    var viddeo = document.createElement('video')
     viddeo.width = 500
     viddeo.controls = true
     viddeo.preload = 'metadata'
     viddeo.poster = 'noite-300.jpg'
-    document.getElementById('lugar').appendChild(viddeo)}
+    document.getElementById('lugar').appendChild(viddeo)
+    
+    var vid_mp4 = document.createElement('source')
+    vid_mp4.src = 'videoplayback.mp4'
+    vid_mp4.type = 'video/mp4'
+
+    var vid_webm = document.createElement('source')
+    vid_webm.src = 'videoplayback (1).webm'
+    vid_webm.type = 'video/webm'
+
+    viddeo.appendChild(vid_mp4)
+    viddeo.appendChild(vid_webm)
+
+    viddeo.innerHTML += '<p>O seu navegador não pode carregar este vídeo.</p>'
+ }
+    
     
 }
