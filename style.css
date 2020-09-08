@@ -1,6 +1,6 @@
 body{
     font: normal 15pt Arial;
-    background-color:blue;
+    background-image: linear-gradient(to right, #2541b2 40%,#84dcc6,#95a3b3);
 }
 header {
     color: white;
